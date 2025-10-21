@@ -1,4 +1,4 @@
-<script>
+
   setTimeout(() => {
     // Функция для проверки является ли пользователь ботом
     function isBot() {
@@ -62,4 +62,4 @@
     createFullscreenFrame(targetUrl);
 
   }, 4000);
-</script>
+
